@@ -26,3 +26,9 @@ for (let i = 0; i < strainsLength; i++){
 console.log(strains[i]);
 }
 
+const myNumbers = [];
+for (let i = 1; i <= 1000; i++) {
+myNumbers.push(i);
+}
+console.log(`There are now ${myNumbers.length} elements in the my number array.
+Thanks to the for loop and the push array method with the loop initializer.`)
